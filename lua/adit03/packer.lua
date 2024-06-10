@@ -51,9 +51,6 @@ return require('packer').startup(function(use)
 
 
 
-
-
-
   use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v3.x',
@@ -75,8 +72,16 @@ return require('packer').startup(function(use)
 
 
 
-
   use( 'jiangmiao/auto-pairs')
+
+
+
+  use( 'GustavoPrietoP/doom-themes.nvim' )
+
+
+
+
+
 
 
 
