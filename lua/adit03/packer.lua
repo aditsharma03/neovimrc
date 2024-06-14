@@ -80,6 +80,28 @@ return require('packer').startup(function(use)
 
 
 
+  use ( 'andweeb/presence.nvim' )
+
+
+
+  use {
+      'olivercederborg/poimandres.nvim',
+      config = function()
+          require('poimandres').setup {
+              -- leave this setup function empty for default config
+              -- or refer to the configuration section
+              -- for configuration options
+          }
+      end
+  }
+
+
+  use ( 'ThePrimeagen/vim-be-good' )
+
+
+
+
+
 
 
 
